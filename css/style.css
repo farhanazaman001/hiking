@@ -1,0 +1,331 @@
+/*common start*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #7f7770;
+}
+
+/*common end*/
+
+/*header start*/
+
+
+header{
+	padding: 30px;
+	padding-left: 65px;
+}
+.menu{}
+.menu ul li a{
+	font-size: 16px;
+	font-weight: 700;
+	color: #54524f !important;
+	line-height: 24px;
+	padding: 0 25px !important;
+}
+
+
+
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 50px;
+    background-color: #c3bfbc;
+    border-radius: 50px;
+    padding: 6px 6px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 150px;
+    caret-color: #e2a355;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #68635f;
+    text-decoration:none;
+    }
+
+/*header end*/
+
+
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.s_slider{
+      margin: 200px 0;
+}
+.s_slider h2{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 50px;
+      font-weight: 800;
+      color: #deb37e;
+      text-shadow: 1px 1px 2px #000000;
+      padding-top: 130px;
+      padding-left: 70px;
+      padding-right: 70px;
+ }
+
+ .s_slider h3{
+ 	  font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      font-style: italic;
+      color: #54524f;
+      padding-left: 70px;
+      padding-right: 200px;
+ }
+.s_slider p{
+      
+      margin-bottom: 90px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-style: italic;
+      color: #54524f;
+      text-align: left;
+      padding-left: 70px;
+      padding-right: 65px;
+      
+}
+.btn_c{
+      margin-top: 60px;
+      margin-bottom: 25px;
+      margin-left: 70px;
+      margin-right: 70px;
+      width: 120px;
+      height: 35px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+      color: #776c64;
+      border: 0;
+      border-radius: 50px;
+      background-color: white;
+      text-transform: uppercase;
+
+
+      
+
+}
+
+.btn_c:hover {
+      background-color: white;
+      color: #e2a355;
+}
+
+
+
+
+/*banner end*/
+
+/*let's go start*/
+.c_title h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+	font-weight: 800;
+	color: #e2a355;
+}
+
+.c_title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	color: #7f7770;
+	margin-top: 40px;
+	
+}
+
+.team_member {
+    margin-top: 40px;
+}
+
+.t_img {
+    position: relative;
+}
+
+.t_img img {
+    width: 100%;
+}
+
+
+.member_bio {
+    padding: 10px 15px;
+    background-color: #7f7770;
+}
+.member_bio h3{
+	margin-top: 40px;
+	margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.member_bio p{
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.btn_b{
+	margin-top: 50px;
+	margin-bottom: 150px;
+	width: 250px;
+	height: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 800;
+	color: white;
+	background-color: #7f7770;
+	border-radius: 50px;
+}
+
+
+
+
+/*let's go end*/
+/*discount1 start*/
+
+.discount1{
+	background-color: #7f7770;
+
+}
+
+
+.dis_img1 img{
+	width: 100%;
+}
+
+.dis_text1{
+	margin-top: 130px;
+	margin-left: 50px;
+	margin-right: 115px;
+	
+}
+
+.dis_text1 h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 38px;
+	font-weight: 700;
+	color: white;
+}
+
+.dis_text1 p{
+	margin-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+}
+
+
+.dis_b {
+	margin-top: 25px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+    border-radius: 50px;
+    background-color: #e2a355;
+    color: white;
+    padding: 10px 52px;
+}
+
+
+/*discount1 end*/
+
+
+/*discount2 start*/
+
+
+.discount2{
+	background-color: #deb37e;
+}
+
+
+
+
+
+
+.dis_text2{
+	margin-top: 130px;
+	margin-left: 50px;
+	margin-right: 115px;
+	
+}
+
+.dis_text2 h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 38px;
+	font-weight: 700;
+	color: white;
+}
+
+.dis_text2 p{
+	margin-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+}
+
+
+.dis_img2 img{
+	width: 100%;
+}
+
+
+.dis_b{
+	margin-top: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+    border-radius: 50px;
+    background-color: #e2a355;
+    color: white;
+    padding: 10px 52px;
+}
+/*discount2 end*/
+
+/*hike start*/
+
+
+
+
+
+
+/*hike end*/
+
